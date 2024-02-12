@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/productdetails.css">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container-fluid px-sm-5">
+            <div class="d-flex">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="logo" width="50">
+                </a>
+                <a href="index.html" class="navbar-brand me-0">Brand Name</a>
+            </div>
+            <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="nav-item d-flex justify-content-center px-3" id="profile-icon-container1">
+                <div href="#" class="nav-link dropdown">
+                    <i class="fa-solid fa-user profile-icon"></i>
+                    <i class="fa-solid fa-chevron-down ms-1"></i>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item text-center" href="#">Sign In</a>
+                        <a class="dropdown-item text-center" href="#">Sign Up</a>
+                        <a class="dropdown-item text-center" href="#">My Cart</a>
+                        <a class="dropdown-item text-center" href="#">My Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-lg-row flex-column navbar-collapse mt-lg-0 mt-2" id="navbar-nav">
+                <ul class="navbar-nav flex-lg-row">
+                    <li class="nav-item d-flex justify-content-center px-3">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-center px-3">
+                        <a href="supplements.html" class="nav-link">Supplement</a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-center px-3">
+                        <a href="preworkouts.html" class="nav-link">Pre-Workout</a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-center px-3">
+                        <a href="equipment.html" class="nav-link">Equipment</a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-center px-3">
+                        <a href="contact_us.html" class="nav-link">Contact Us</a>
+                    </li>
+                    <li class="nav-item d-flex justify-content-center px-3" id="profile-icon-container2">
+                        <div class="nav-link dropdown">
+                            <i class="fa-solid fa-user profile-icon"></i>
+                            <i class="fa-solid fa-chevron-down ms-1"></i>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item text-center" href="#">Sign In</a>
+                                <a class="dropdown-item text-center" href="#">Sign Up</a>
+                                <a class="dropdown-item text-center" href="#">My Cart</a>
+                                <a class="dropdown-item text-center" href="#">My Profile</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="productcontainer my-5">
+        <div class="img w-50 d-flex justify-content-center">
+            <img id="product-image">
+        </div>
+        <div class="productdetail w-50">
+            <h3 id="product-name"></h3>
+            <div class="review">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <a href="#">write a review</a>
+            </div>
+            <p class="money-back">
+                30-day money-back guarantee
+            </p>
+            <p class="delivery">
+                Delivery within 2 days Cairo, Giza & Alex
+                Other Cities delivery within 5 days
+            </p>
+            <div class="details">
+                <div class="items colored">
+                    <span class="firstspan">Comapny</span>
+                    <span>Fitness</span>
+                </div>
+                <div class="items">
+                    <span class="firstspan">Origin</span>
+                    <span>Egypt</span>
+                </div>
+                <div class="items colored">
+                    <span class="firstspan">Weight</span>
+                    <span id="product-weight"></span>
+                </div>
+                <div class="items">
+                    <span class="firstspan">Servings</span>
+                    <span>30 Serving</span>
+                </div>
+                <div class="items colored">
+                    <span class="firstspan">Flavor</span>
+                    <span id="product-flavor"></span>
+                </div>
+                <div class="items">
+                    <span class="firstspan">Formation</span>
+                    <span id="product-formation"></span>
+                </div>
+            </div>
+            <h2 class="price" id="price"></h2>
+            <button class="btn"> <i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-line"></div>
+        <div class="footer-wrapper">
+            <section class="footer-top">
+                <div class="footer-headline">
+                    <h2>Subscribe to our newsletter</h2>
+                    <p>Stay up to date to our news and articles</p>
+                </div>
+                <div class="footer-subscribe">
+                    <input type="email" spellcheck="false" placeholder="Your Email" />
+                    <button>Sign In</button>
+                </div>
+            </section>
+            <div class="footer-columns">
+                <section class="footer-logo">
+                    <a href="#"><img src="assets/images/logo.png" alt="logo" /></a>
+                </section>
+                <section>
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a href="#" title="API">API</a></li>
+                        <li><a href="#" title="Pircing">Pircing</a></li>
+                        <li><a href="#" title="Documentation">Documentation</a></li>
+                        <li><a href="#" title="Release">Release Notes</a></li>
+                        <li><a href="#" title="Status">Status</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#" title="Support">Support</a></li>
+                        <li><a href="#" title="Sitemap">Sitemap</a></li>
+                        <li><a href="#" title="Newsletter">Newsletter</a></li>
+                        <li><a href="#" title="Help">Help Centre</a></li>
+                        <li><a href="#" title="Investor">Investor</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#" title="About">About Us</a></li>
+                        <li><a href="#" title="Blog">Blog</a></li>
+                        <li><a href="#" title="Careers">Careers</a></li>
+                        <li><a href="#" title="Press">Press</a></li>
+                        <li><a href="#" title="Contact">Contact</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#" title="Terms">Terms</a></li>
+                        <li><a href="#" title="Privacy">Privacy</a></li>
+                        <li><a href="#" title="Cookies">Cookies</a></li>
+                        <li><a href="#" title="Licenses">Licenses</a></li>
+                        <li><a href="#" title="Contact">Contact</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="footer-bottom">
+                <div class="social-links">
+                    <ul>
+                        <li>
+                            <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" title="Youtube"><i class="fa-brands fa-youtube"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" title="Tiktok"><i class="fa-brands fa-tiktok"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <small>@ Copy Rights. <span id="year"></span> All rights reserved</small>
+            </div>
+        </div>
+    </footer>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/product_details.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
