@@ -2,97 +2,98 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style/card.css">
-    <link rel="stylesheet" href="style/main.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style/card.css">
+  <link rel="stylesheet" href="style/main.css">
+  <title>Document</title>
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="container-fluid px-sm-4">
-            <div class="d-flex">
-                <a href="index.html">
-                    <img src="assets/images/logo.png" alt="logo" width="50">
-                </a>
-                <a href="index.html" class="navbar-brand me-0">X-FIT</a>
-            </div>
-            <button type="button" class="navbar-toggler">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="d-flex flex-lg-row flex-column navbar-collapse mt-lg-0 mt-2" id="navbar-nav">
-                <ul class="navbar-nav flex-lg-row">
-                    <li class="nav-item d-flex justify-content-center px-3">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item d-flex justify-content-center px-3">
-                        <a href="supplements.html" class="nav-link">Supplement</a>
-                    </li>
-                    <li class="nav-item d-flex justify-content-center px-3 selected-item">
-                        <a href="#" class="nav-link">Pre-Workout</a>
-                    </li>
-                    <li class="nav-item d-flex justify-content-center px-3">
-                        <a href="equipment.html" class="nav-link">Equipment</a>
-                    </li>
-                    <li class="nav-item d-flex justify-content-center px-3">
-                        <a href="contact_us.html" class="nav-link">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
+  <nav class="navbar">
+    <div class="container-fluid px-sm-4">
+      <div class="d-flex">
+        <a href="index.html">
+          <img src="assets/images/logo.png" alt="logo" width="50">
+        </a>
+        <a href="index.html" class="navbar-brand me-0">X-FIT</a>
+      </div>
+      <button type="button" class="navbar-toggler">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="d-flex flex-lg-row flex-column navbar-collapse mt-lg-0 mt-2" id="navbar-nav">
+        <ul class="navbar-nav flex-lg-row">
+          <li class="nav-item d-flex justify-content-center px-3">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item d-flex justify-content-center px-3">
+            <a href="supplements.html" class="nav-link">Supplement</a>
+          </li>
+          <li class="nav-item d-flex justify-content-center px-3 selected-item">
+            <a href="#" class="nav-link">Pre-Workout</a>
+          </li>
+          <li class="nav-item d-flex justify-content-center px-3">
+            <a href="equipment.html" class="nav-link">Equipment</a>
+          </li>
+          <li class="nav-item d-flex justify-content-center px-3">
+            <a href="contact_us.html" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section>
+    <div class="container-fluid d-flex justify-content-around flex-wrap" id="productContainer">
+    </div>
+  </section>
+  <footer class="py-3 my-4">
+    <div class="container">
+      <ul class="nav justify-content-center pb-3 text-white">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
+        <li class="nav-item"><a href="supplements.html" class="nav-link px-2 text-white">Supplement</a></li>
+        <li class="nav-item selected-item"><a href="#" class="nav-link px-2 text-white">Pre-Workout</a></li>
+        <li class="nav-item"><a href="equipment.html" class="nav-link px-2 text-white">Equipment</a></li>
+        <li class="nav-item"><a href="contact_us.html" class="nav-link px-2 text-white">Contact Us</a></li>
+      </ul>
+      <div
+        class="d-flex flex-wrap flex-sm-row flex-column-reverse justify-content-sm-between align-items-center py-4 pb-0 w-100 border-top">
+        <div class="d-flex align-items-center">
+          <a href="/" class="me-2 text-white text-decoration-none lh-1">
+            <img src="assets/images/logo.png" alt="" width="30" height="24">
+          </a>
+          <span class="text-white">© 2024 Company, Inc</span>
         </div>
-    </nav>
-    <section>
-        <div class="container-fluid d-flex justify-content-around flex-wrap" id="productContainer">
-        </div>
-    </section>
-    <footer class="py-3 my-4">
-        <div class="container">
-          <ul class="nav justify-content-center pb-3 text-white">
-            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
-            <li class="nav-item"><a href="supplements.html" class="nav-link px-2 text-white">Supplement</a></li>
-            <li class="nav-item selected-item"><a href="#" class="nav-link px-2 text-white">Pre-Workout</a></li>
-            <li class="nav-item"><a href="equipment.html" class="nav-link px-2 text-white">Equipment</a></li>
-            <li class="nav-item"><a href="contact_us.html" class="nav-link px-2 text-white">Contact Us</a></li>
+
+        <div class="social-links mb-sm-0 mb-3">
+          <ul class="m-0 p-0">
+            <li>
+              <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#" title="Youtube"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#" title="Tiktok"><i class="fa-brands fa-tiktok"></i></a>
+            </li>
           </ul>
-          <div class="d-flex flex-wrap justify-content-between align-items-center py-4 pb-0 w-100 border-top">
-            <div class="d-flex align-items-center">
-              <a href="/" class="mb-3 me-2 mb-md-0 text-white text-decoration-none lh-1">
-                <img src="assets/images/logo.png" alt="" width="30" height="24">
-              </a>
-              <span class="mb-3 mb-md-0 text-white">© 2024 Company, Inc</span>
-            </div>
-    
-            <div class="social-links">
-              <ul class="m-0 p-0">
-                <li>
-                  <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a href="#" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a href="#" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#" title="Youtube"><i class="fa-brands fa-youtube"></i></a>
-                </li>
-                <li>
-                  <a href="#" title="Tiktok"><i class="fa-brands fa-tiktok"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
-    
-      </footer>
-    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/preworkouts.js"></script>
+      </div>
+    </div>
+
+  </footer>
+  <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/preworkouts.js"></script>
 </body>
 
 </html>
